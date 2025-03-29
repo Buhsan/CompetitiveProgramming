@@ -1,0 +1,12 @@
+3 10
+a 1 Pepe
+a 3 Juan
+a 3 Maria
+p 3
+o 3
+o 2
+a 1 Laura
+a 2 Jose
+p 2
+o 2
+

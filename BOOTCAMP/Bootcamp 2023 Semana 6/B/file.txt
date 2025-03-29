@@ -1,0 +1,12 @@
+10
+inc a
+inc a
+inc b
+inc b
+inc b
+dec a 9
+inc aux
+inc b
+dec 0 5
+halt
+

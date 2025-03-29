@@ -1,0 +1,21 @@
+15
+inp a
+inp end
+call 5
+print end
+halt
+print a
+call 13
+print a
+call 11
+print a
+ret
+dec a 12
+ret
+inc a
+ret
+4
+^
+q
+
+e

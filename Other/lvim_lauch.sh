@@ -1,0 +1,1 @@
+lvim /home/buhsan/CP
