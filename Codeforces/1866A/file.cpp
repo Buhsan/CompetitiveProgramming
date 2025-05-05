@@ -43,7 +43,6 @@ void solve(int tt){
     res = min(res,a);
   }
   cout << res << endl;
-
 }
 
 

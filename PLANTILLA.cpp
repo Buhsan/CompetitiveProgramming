@@ -13,12 +13,9 @@ typedef pair<ll,ll> pll;
 #define FILL(list) for (auto &elem : list) cin>>elem
 #define REPLIST(i, list) for (auto i : list)
 
-// #define PRINTLIST(a) for (int i = 0; i < a.size(); ++i) { cout << a[i] << " "; } cout<<endl;
 #define PRINTLIST(list) for (auto &elem : list) { cout << elem << " "; } cout<<endl;
-// #define PRINT(...) ((cout << ... << " "), cout << endl)
 #define PRINT(v) cout << v << endl
 #define P(v) cout << #v << ": " << v << endl
-// #define P(...) ((cout << ((cout << #__VA_ARGS__ << " = ") , ... , (cout << __VA_ARGS__ << " "))), cout << endl)
 
 
 
@@ -189,27 +186,47 @@ struct MinOp {
 };
 
 
-void make_set(vector<int> &nodoPadre, int v) {
-  nodoPadre[v] = v;
+/*
+template<typename T>
+void make_set(vector<T> &dsu, T v) {
+  dsu[v] = v;
 }
 
-int find_set(vector<int> &nodoPadre, int v) {
-  if (v == nodoPadre[v]) return v;
-  return find_set(nodoPadre, nodoPadre[v]);
+template<typename T>
+int find_set(vector<T> &dsu, T v) {
+ if (v == dsu[v]) return v;
+  return find_set(dsu, dsu[v]);
 }
 
-void union_sets(vector<int> &nodoPadre, int a, int b) {
-  a = find_set(nodoPadre, a);
-  b = find_set(nodoPadre, b);
-  if (a != b) nodoPadre[b] = a;
+template<typename T>
+void union_sets(vector<T> &dsu, T a, T b) {
+  a = find_set(dsu, a);
+  b = find_set(dsu, b);
+  if (a != b) dsu[b] = a;
+}
+*/
+
+template<typename T>
+void make_set(vector<T> &dsu, vector<T> &size, T v) {
+  dsu[v] = v;
+  size[v] = 1;
 }
 
-int repString(string k, string search){
-    int cnt = 0;
-    REP(i,0,k.size()){
-        if (k.substr(i,search.size()) == search) cnt++;
-    }
-    return cnt;
+template<typename T>
+int find_set(vector<T> &dsu, T v) {
+  if (v == dsu[v]) return v;
+  return dsu[v] = find_set(dsu, dsu[v]);
+}
+
+template<typename T>
+void union_sets(vector<T> &dsu, vector<T> &size, T a, T b) {
+  a = find_set(dsu, a);
+  b = find_set(dsu, b);
+  if (a != b) {
+    if (size[a] < size[b]) swap(a, b);
+    dsu[b] = a;
+    size[a] += size[b];
+  }
 }
 
 // int __lcm(int a, int b) {

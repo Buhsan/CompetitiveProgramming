@@ -32,7 +32,7 @@ typedef pair<ll,ll> pll;
 // #define FILL(list) for (auto elem : list) cin>>elem
 // #define FILL(list) for (int i = 0; i < list.size(); ++i) cin >> list[i]
 #define FILL(list) for (auto &elem : list) cin>>elem
-#define REPLIST(i, list) for (auto i : list)
+// #define REPLIST(i, list) for (auto i : list)
 
 // #define PRINTLIST(a) for (int i = 0; i < a.size(); ++i) { cout << a[i] << " "; } cout<<endl;
 #define PRINTLIST(list) for (auto &elem : list) { cout << elem << " "; } cout<<endl;

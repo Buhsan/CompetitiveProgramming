@@ -1,0 +1,9 @@
+7
+ab
+ac
+az
+ba
+bc
+zx
+zy
+

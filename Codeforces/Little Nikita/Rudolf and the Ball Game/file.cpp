@@ -51,7 +51,7 @@ typedef pair<ll,ll> pll;
 #define PPAIR(a) cout << #a << ": "; for (auto j : a) { cout<<"{"<<j.first<<" "<<j.second<<"} "; } cout<<endl;
 #define PAIR(a) cout << #a << ": "; cout<<"{"<<a.first<<" "<<a.second<<"} "; cout<<endl;
 
-#define TESTCASES true
+#define TESTCASES true 
 
 const ll MOD = 1e9 + 7;
 
@@ -238,16 +238,6 @@ void solve(int tt){
   int i = 1;
   int r; char c;
   queue<int> q;
-  // if (c=='?'){
-  //   q.push(mod(x+r,n));
-  //   q.push(mod(x-r,n));
-  // }
-  // else if(c=='0'){
-  //   q.push(mod(x+r,n));
-  // }
-  // else {
-  //   q.push(mod(x-r, n));
-  // }
   q.push(x);
   set<int> visited;
   REP(i,0,m) {
@@ -282,6 +272,48 @@ void solve(int tt){
 }
 
 
+
+/*
+void solve(int tt) {
+  int n, m, x;
+  cin >> n >> m >> x;
+  queue<int> q;
+  q.push(x);
+  set<int> visitados;
+  for(int i = 0;i<m;i++){
+    queue<int> q2 = q;
+    q = queue<int>();
+    int r;
+    char c;
+    cin >> r >> c;
+    visitados.clear();
+    while(!q2.empty()){
+      int actual = q2.front();
+      // visitados.insert(actual);
+      q2.pop();
+      int destiny1, destiny2;
+      destiny1 = (((actual + r) % n) + n) % n == 0 ? n : (((actual+r) % n) + n) % n;
+      destiny2 = (((actual - r) % n) + n) % n == 0 ? n : (((actual - r) % n) + n) % n;
+
+      if(c == '?'){
+        if (!visitados.count(destiny1)) q.push(destiny1), visitados.insert(destiny1);
+        if (!visitados.count(destiny2)) q.push(destiny2), visitados.insert(destiny2);
+      }
+      else if(c == '1'){
+        if (!visitados.count(destiny2)) q.push(destiny2), visitados.insert(destiny2);
+      }
+      else{
+        if (!visitados.count(destiny1)) q.push(destiny1), visitados.insert(destiny1);
+      }
+    }
+  }
+  cout << visitados.size() << endl;
+  for (int i : visitados) {
+    cout << i << " ";
+  }
+  cout << endl;
+}
+*/
 
 int main() {
     ios::sync_with_stdio(0);
