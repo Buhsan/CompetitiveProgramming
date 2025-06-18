@@ -1,0 +1,6 @@
+5
+8/8/8/8/8/8/8/8
+r2p2P1/8/8/8/8/8/8/8
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
+r4rk1/p2b1q2/2p2B1p/1pn1Ppp1/8/3B4/PPP3QP/4RKR1
+8/8/8/3n4/8/8/8/8
