@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   int rows, cols;
-  while (cin >> rows >> cols, rows || cols) {
+  while (cin >> rows >> cols && (rows || cols)) {
     vector<string> start(rows), goal(rows);
     for (int i = 0; i < rows; ++i)
       cin >> start[i] >> goal[i];
@@ -12,7 +12,6 @@ int main() {
     int total0_goal = 0, total1_goal = 0;
 
     map<pair<char, char>, int> mismatch_count;
-    int reinicios = 0, apagados = 0;
 
     for (int i = 0; i < rows; ++i)
       for (int j = 0; j < cols; ++j) {
@@ -32,16 +31,10 @@ int main() {
         if (s == g)
           continue;
 
-        if (s == 'R' && g == '1') {
-          reinicios++;
-        } else {
-          mismatch_count[{s, g}]++;
-        }
+        mismatch_count[{s, g}]++;
       }
 
-    if (total1_start + totalR_start < total1_goal ||
-        total0_start + total1_start + totalR_start <
-            total0_goal + total1_goal) {
+    if (total1_start + totalR_start < total1_goal) {
       cout << "IMPOSIBLE\n";
       continue;
     }
@@ -51,7 +44,8 @@ int main() {
     for (auto make : mismatch_count) {
       pair<char, char> p = make.first;
       int count = make.second;
-      char a = p.first, b = p.second;
+      char a = p.first;
+      char b = p.second;
       if (a < b && mismatch_count.count({b, a})) {
         int matched = min(count, mismatch_count[{b, a}]);
         swaps += matched;
@@ -63,7 +57,7 @@ int main() {
     for (auto make : mismatch_count)
       restantes += make.second;
 
-    int total_op = reinicios + apagados + swaps + restantes;
+    int total_op = swaps + restantes;
     cout << total_op << "\n";
   }
   return 0;
