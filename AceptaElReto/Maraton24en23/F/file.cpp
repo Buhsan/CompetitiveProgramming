@@ -3,27 +3,28 @@
 using namespace std;
 
 int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
   int n;
-  while (cin >> n && n) {
+  while(cin>> n && n) {
     vector<int> a(n);
+
     for (int i = 0; i < n; i++) {
       cin >> a[i];
     }
-    if (a.size() == 1) {
-      cout << 0 << endl;
-      continue;
-    }
-    vector<int> cntPos(n);
-    int curr = 0;
-    for (int i = 1; i < n; i++) {
-      cntPos[curr]++;
-      cntPos[i]++;
 
+    int result = 0;
+    int curr = 0;
+    vector<int> cntPos(n);
+    for (int i = 1; i < n; i++) {
+      result = max(result, ++cntPos[curr]);
+      result = max(result, ++cntPos[i]);
       if (a[i] > a[curr]) {
         curr = i;
       }
     }
-    cout << *max_element(cntPos.begin(), cntPos.end()) << endl;
+
+    cout << result << '\n';
   }
-  return 0;
 }
