@@ -4,23 +4,23 @@ using namespace std;
 typedef long long ll;
 
 int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
   int n, k;
-  while (cin >> n >> k) {
-    if (!n && !k) {
-      break;
-    }
+  while (cin >> n >> k && (n || k)) {
     ll sum = 0;
     priority_queue<ll, vector<ll>, greater<ll>> pq;
     for (int i = 0; i < n; i++) {
-      ll aux;
-      cin >> aux;
-      sum += aux;
+      ll num;
+      cin >> num;
+      sum += num;
 
       if (pq.size() < k) {
-        pq.push(aux);
-      } else if (aux > pq.top()) {
+        pq.push(num);
+      } else if (num > pq.top()) {
         pq.pop();
-        pq.push(aux);
+        pq.push(num);
       }
     }
     ll richest = 0;
@@ -29,7 +29,7 @@ int main() {
       pq.pop();
     }
 
-    cout << sum << " " << richest << endl;
+    cout << sum << " " << richest << '\n';
   }
   return 0;
 }
