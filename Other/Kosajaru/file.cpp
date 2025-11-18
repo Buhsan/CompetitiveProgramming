@@ -229,7 +229,7 @@ void solve(int tt){
   }
   vector<bool> visited(n, false);
   stack<int> st;
-  dfs()
+  dfs();
 }
 
 

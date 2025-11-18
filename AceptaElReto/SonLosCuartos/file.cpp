@@ -10,7 +10,7 @@ void solve(int tt){
   string s;
   getline(cin,s);
   short int n = s.size();
-  cout << (n == 0 ? "MARISA NARANJO" : n > 71 ? "SALIDA NULA" : n < 71 ? "TARDE" : "CORRECTO") << endl;
+  cout << (n == 0 ? "MARISA NARANJO" : n > 71 ? "SALIDA NULA" : n < 71 ? "TARDE" : "CORRECTO") << '\n';
 }
 
 

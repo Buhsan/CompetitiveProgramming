@@ -43,9 +43,12 @@ void solve(int tt){
     if(a%2) odd++;
   }
   bool res = false;
-  if (odd == 0) res = false;
-  else if (odd%2) res = true;
-  else if (!(odd%2) && n-odd > 0) res = true;
+        if (odd == 0) {
+          res = false;
+        }
+
+        else if (odd%2) res = true;
+        else if (!(odd%2) && n-odd > 0) res = true;
   cout << (res ? "YES" : "NO") << endl;
 }
 

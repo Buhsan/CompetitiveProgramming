@@ -41,7 +41,7 @@ void solve(int tt){
     if (!x1 && !x2 && !y2 && !y1) break;
     bool res = false;
     if (x1==x2 || y1 == y2) res = true;
-    else {
+    else { 
       double d = (double)(y2-y1)/(x2-x1);
       res = abs(d) == 1;
     }

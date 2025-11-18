@@ -1,0 +1,11 @@
+2
+a
+b
+3
+bb
+aaaaaa
+abbaaaaaaa
+1
+bbb
+0
+
