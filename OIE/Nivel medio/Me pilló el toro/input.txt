@@ -1,0 +1,16 @@
+2
+Laureano
+INCORRECTO
+Aldonza
+CORRECTO
+3
+Aldonza
+CORRECTO
+Aldonza
+INCORRECTO
+Laureano
+CORRECTO
+1
+Aldonza Lorenzo
+CORRECTO
+0

@@ -30,6 +30,7 @@ int main() {
       }
     }
     cout << ans << '\n';
+    cout << ans << '\n';
   }
 
   return 0;
