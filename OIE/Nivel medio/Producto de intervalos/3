@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+struct Node {
+  int neg, zeros;
+};
+
+
+struct SegTree {
+  vector<Node> tree;
+  SegTree(vector<Node> &v) {
+    build(v);
+  }
+
+  void build(int currNode, int left, int right, vector<Node> &v) {
+    if (left > right) return;
+  }
+  //void build(
+  // build(vector<int> v)
+  // update(int id, int value) build()
+  // query(int 
+};
+
+int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
+  int n;
+  while (cin >> n) {
+    vector<Node> v(n);
+    for (int i = 0; i < n; i++) {
+      int a; cin >> a;
+      int neg = 0, z = 0;
+      if (a < 0) neg++;
+      else if (a == 0) z++;
+      v[i] = {neg, z};
+    }
+
+    string s;
+    while (cin >> s) {
+      if (s == "FIN") break;
+      if (s == "C") {
+        int id, val;
+        cin >> id >> val;
+        cout << id << " " << val << endl;
+        //update
+      } else {
+        int a, b; cin >> a >> b; cout << a << " " << b << endl;
+        // query
+      }
+    }
+
+  }
+
+
+  return 0;
+}

@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0):
+
+  int n;
+  
+  while (cin >> n) {
+    vector<vector<int>> adj(n);
+    vector<int> finales(n); // 0 - nada, 1 - feliz, 2 - amargo
+    for (int i = 0; i < n; i++) {
+      int a; cin >> a;
+      if (a == 0) {
+        string f; cin >> f;
+        if (f == "FELIZ") finales[i] = 1;
+
+      }
+      for (int j = 0; j < a; j++) {
+        int b; cin >> b; b--;
+        adj[i].push_back(b);
+      }
+    }
+  }
+
+  return 0;
+}

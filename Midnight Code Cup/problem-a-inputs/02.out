@@ -1,0 +1,841 @@
+94
+1
+pick 2 1
+2
+1 6
+2 4
+0
+2
+1 5
+2 6
+3
+pick 1 2
+pick 1 3
+drop 2 1
+2
+1 6
+2 3
+1
+pick 2 4
+3
+1 4
+2 4
+3 5
+1
+pick 3 6
+3
+1 2
+2 1
+3 7
+4
+drop 1 2
+drop 1 3
+pick 1 5
+drop 3 6
+3
+1 4
+2 9
+3 4
+2
+drop 2 4
+pick 2 8
+3
+1 1
+2 1
+3 6
+2
+drop 1 5
+pick 3 7
+3
+1 9
+2 4
+3 3
+6
+pick 1 14
+pick 1 16
+pick 2 12
+drop 3 7
+pick 3 10
+pick 3 15
+2
+1 1
+2 3
+1
+drop 2 8
+3
+1 10
+2 6
+3 4
+4
+drop 1 16
+pick 1 13
+pick 2 18
+pick 2 19
+3
+1 1
+2 8
+3 2
+4
+pick 1 23
+drop 2 12
+drop 3 10
+pick 3 11
+3
+1 4
+2 6
+3 4
+1
+pick 2 25
+3
+1 3
+2 4
+3 1
+5
+drop 1 14
+pick 1 24
+pick 1 27
+drop 2 19
+pick 2 26
+3
+1 6
+2 2
+3 9
+4
+pick 1 28
+drop 2 18
+pick 2 30
+drop 3 15
+3
+1 5
+2 4
+3 1
+2
+drop 1 13
+pick 1 34
+3
+1 6
+2 7
+3 10
+8
+drop 2 25
+pick 2 9
+pick 2 17
+pick 2 21
+drop 3 11
+pick 3 20
+pick 3 22
+pick 3 37
+3
+1 8
+2 4
+3 1
+6
+drop 1 23
+drop 1 27
+pick 1 29
+pick 1 41
+drop 2 21
+pick 3 36
+3
+1 6
+2 3
+3 9
+5
+drop 2 26
+pick 2 39
+drop 3 20
+pick 3 31
+pick 3 44
+2
+1 3
+3 5
+3
+drop 1 28
+drop 3 44
+pick 3 38
+3
+1 4
+2 6
+3 7
+9
+drop 1 41
+pick 1 47
+pick 1 49
+drop 2 30
+drop 2 17
+pick 2 32
+pick 2 43
+drop 3 31
+pick 3 33
+3
+1 2
+2 5
+3 4
+6
+drop 1 24
+pick 1 35
+drop 2 32
+pick 2 42
+drop 3 37
+drop 3 38
+3
+1 4
+2 9
+3 3
+6
+drop 2 43
+pick 2 51
+drop 3 22
+pick 3 52
+pick 3 56
+pick 3 58
+3
+1 7
+2 1
+3 6
+5
+drop 1 29
+pick 1 40
+drop 2 39
+pick 2 48
+pick 2 59
+3
+1 4
+2 10
+3 5
+9
+drop 1 40
+pick 1 70
+drop 2 9
+drop 2 51
+pick 2 45
+pick 2 53
+drop 3 33
+drop 3 58
+pick 3 60
+3
+1 3
+2 1
+3 9
+5
+drop 1 49
+drop 2 53
+pick 2 63
+drop 3 56
+pick 3 74
+3
+1 4
+2 4
+3 1
+4
+pick 1 75
+drop 3 52
+pick 3 67
+pick 3 68
+3
+1 1
+2 3
+3 10
+9
+drop 1 75
+pick 1 77
+drop 2 42
+drop 2 48
+drop 2 59
+drop 3 36
+drop 3 68
+pick 3 61
+pick 3 72
+2
+1 10
+2 6
+3
+drop 1 34
+drop 1 35
+drop 2 63
+2
+1 1
+2 8
+3
+pick 1 81
+drop 2 45
+pick 2 71
+3
+1 9
+2 6
+3 1
+3
+drop 1 47
+drop 1 70
+pick 1 80
+3
+1 5
+2 4
+3 9
+3
+pick 1 73
+drop 3 67
+drop 3 61
+3
+1 7
+2 7
+3 5
+9
+drop 1 80
+pick 1 55
+pick 1 65
+drop 2 71
+pick 2 69
+pick 2 76
+pick 2 79
+pick 2 83
+drop 3 72
+2
+1 4
+3 6
+3
+drop 1 65
+pick 1 89
+pick 3 86
+3
+1 2
+2 4
+3 8
+6
+drop 1 77
+pick 1 46
+pick 2 92
+drop 3 60
+drop 3 74
+pick 3 87
+3
+1 4
+2 3
+3 6
+3
+drop 2 69
+drop 2 83
+drop 2 92
+3
+1 6
+2 4
+3 5
+4
+pick 2 94
+drop 3 86
+pick 3 91
+pick 3 98
+3
+1 8
+2 1
+3 6
+6
+drop 1 81
+drop 2 76
+drop 2 94
+pick 2 85
+pick 2 96
+drop 3 91
+3
+1 6
+2 10
+3 3
+8
+pick 1 103
+drop 2 79
+drop 2 96
+pick 2 88
+pick 2 99
+pick 2 100
+drop 3 87
+pick 3 101
+3
+1 5
+2 1
+3 4
+3
+drop 1 46
+drop 3 98
+pick 3 104
+2
+1 9
+2 4
+7
+drop 1 73
+drop 1 89
+drop 1 103
+pick 1 93
+pick 1 97
+pick 1 109
+drop 2 100
+3
+1 1
+2 6
+3 1
+1
+drop 2 85
+3
+1 10
+2 3
+3 9
+7
+drop 1 55
+pick 1 106
+pick 1 107
+drop 2 88
+pick 2 113
+drop 3 101
+drop 3 104
+3
+1 1
+2 4
+3 1
+2
+drop 1 107
+pick 1 116
+2
+1 4
+2 7
+5
+drop 1 109
+drop 2 99
+pick 2 90
+pick 2 102
+pick 2 114
+3
+1 6
+2 4
+3 4
+3
+drop 1 97
+pick 1 117
+pick 1 120
+3
+1 8
+2 1
+3 2
+12
+drop 1 93
+drop 1 106
+pick 1 105
+pick 1 110
+drop 2 113
+drop 2 114
+pick 2 125
+pick 3 50
+pick 3 54
+pick 3 57
+pick 3 62
+pick 3 64
+3
+1 6
+2 9
+3 4
+4
+drop 2 90
+pick 2 118
+pick 2 122
+pick 2 127
+3
+1 3
+2 5
+3 7
+7
+drop 1 116
+drop 1 120
+pick 1 128
+drop 2 125
+pick 2 111
+drop 3 54
+drop 3 64
+3
+1 4
+2 6
+3 5
+4
+drop 1 110
+drop 3 57
+pick 3 124
+pick 3 126
+3
+1 1
+2 8
+3 6
+8
+drop 1 117
+pick 1 132
+drop 2 102
+drop 2 118
+drop 2 122
+pick 2 119
+pick 2 123
+drop 3 126
+2
+1 4
+2 6
+1
+pick 1 133
+3
+1 2
+2 3
+3 8
+11
+drop 1 105
+drop 1 128
+drop 1 132
+pick 1 66
+pick 1 78
+pick 1 82
+pick 1 84
+drop 2 127
+drop 2 111
+drop 3 50
+drop 3 124
+3
+1 4
+2 4
+3 6
+0
+3
+1 3
+2 1
+3 3
+6
+drop 1 82
+pick 1 136
+drop 2 119
+drop 2 123
+pick 2 139
+drop 3 62
+3
+1 6
+2 10
+3 4
+5
+drop 1 84
+drop 2 139
+pick 2 108
+pick 2 130
+pick 2 135
+3
+1 5
+2 1
+3 2
+9
+drop 1 133
+drop 1 78
+pick 1 141
+pick 1 145
+pick 3 95
+pick 3 112
+pick 3 115
+pick 3 121
+pick 3 131
+3
+1 6
+2 9
+3 4
+2
+drop 2 108
+pick 2 129
+3
+1 8
+2 5
+3 7
+6
+drop 1 66
+drop 1 145
+pick 1 138
+drop 2 135
+drop 3 95
+pick 3 134
+3
+1 6
+2 6
+3 4
+2
+pick 1 149
+drop 2 130
+2
+1 4
+3 1
+3
+pick 1 143
+drop 3 115
+drop 3 134
+3
+1 1
+2 4
+3 10
+9
+pick 2 151
+pick 2 156
+pick 2 161
+drop 3 112
+drop 3 121
+drop 3 131
+pick 3 147
+pick 3 157
+pick 3 160
+2
+1 10
+2 1
+6
+drop 1 136
+drop 1 141
+drop 1 138
+drop 1 149
+drop 2 129
+pick 2 159
+2
+1 1
+2 4
+0
+3
+1 4
+2 6
+3 1
+4
+drop 2 159
+pick 2 162
+pick 2 166
+drop 3 160
+3
+1 6
+2 8
+3 4
+7
+pick 1 168
+drop 2 151
+drop 2 156
+drop 2 161
+pick 2 150
+pick 2 154
+pick 2 163
+2
+1 8
+3 6
+3
+drop 1 143
+pick 1 165
+drop 3 147
+2
+1 6
+3 3
+4
+drop 3 157
+pick 3 142
+pick 3 146
+pick 3 148
+3
+1 4
+2 6
+3 4
+2
+pick 1 171
+drop 3 142
+2
+1 1
+2 4
+2
+drop 1 168
+pick 1 169
+3
+1 9
+2 1
+3 6
+5
+drop 1 165
+drop 1 171
+drop 2 150
+pick 3 172
+pick 3 176
+3
+1 1
+2 10
+3 5
+5
+drop 2 162
+drop 2 166
+drop 3 146
+pick 3 155
+pick 3 170
+3
+1 4
+2 1
+3 9
+3
+pick 2 184
+drop 3 148
+pick 3 177
+3
+1 3
+2 4
+3 1
+7
+drop 1 169
+pick 1 174
+pick 1 179
+pick 1 180
+pick 1 182
+pick 2 189
+drop 3 172
+3
+1 4
+2 7
+3 4
+6
+pick 1 192
+drop 2 154
+drop 2 163
+pick 2 137
+pick 2 152
+pick 2 164
+3
+1 7
+2 5
+3 2
+9
+drop 1 174
+pick 1 167
+drop 2 184
+pick 2 175
+drop 3 176
+drop 3 170
+pick 3 140
+pick 3 144
+pick 3 153
+3
+1 5
+2 9
+3 4
+6
+drop 1 192
+pick 1 178
+drop 2 152
+pick 2 186
+drop 3 140
+pick 3 195
+3
+1 9
+2 1
+3 7
+5
+drop 1 167
+drop 2 164
+pick 2 190
+drop 3 177
+pick 3 197
+3
+1 1
+2 10
+3 5
+7
+drop 1 180
+pick 1 194
+pick 1 198
+drop 2 189
+drop 2 137
+drop 3 153
+pick 3 181
+2
+1 10
+3 9
+3
+drop 1 182
+drop 3 195
+drop 3 181
+2
+1 1
+3 1
+0
+2
+1 4
+2 1
+0
+3
+1 2
+2 4
+3 10
+6
+drop 1 179
+pick 1 158
+pick 1 191
+drop 2 175
+drop 2 186
+drop 3 144
+3
+1 4
+2 3
+3 1
+1
+drop 2 190
+3
+1 7
+2 6
+3 4
+4
+drop 1 178
+drop 1 194
+drop 1 158
+pick 2 187
+3
+1 5
+2 4
+3 2
+6
+drop 1 198
+pick 1 183
+pick 1 193
+pick 1 199
+pick 1 200
+drop 3 197
+3
+1 9
+2 1
+3 4
+1
+drop 1 191
+3
+1 1
+2 10
+3 6
+2
+drop 1 199
+drop 2 187
+3
+1 4
+2 1
+3 8
+6
+drop 1 193
+drop 3 155
+pick 3 173
+pick 3 185
+pick 3 188
+pick 3 196
+2
+1 3
+3 6
+1
+drop 1 183
+2
+1 4
+3 4
+2
+drop 3 173
+drop 3 196
+2
+1 7
+3 3
+2
+drop 1 200
+drop 3 185
+1
+3 4
+0
+1
+3 2
+1
+drop 3 188
+0

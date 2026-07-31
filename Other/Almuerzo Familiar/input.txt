@@ -1,0 +1,8 @@
+Lista de la familia MF
+Serafim 10 5
+Daniel 2 10
+Nadal 1 20
+Bogdan 3 10
+Productos del almacen de Don Diego Provencio
+1 10 15
+2 20 8

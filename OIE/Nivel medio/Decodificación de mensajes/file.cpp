@@ -45,8 +45,11 @@ int main() {
 
   string s;
   while (getline(cin, s)) {
+    cout << "zero step: " << s << endl;
     string a = reverse1(s);
+    cout << "first step: " << a << endl;
     cout << reverse2(a) << '\n';
+    cout << endl;
   }
 
   return 0;

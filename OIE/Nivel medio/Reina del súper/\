@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+struct Register{
+  int id, int time;
+};
+
+
+struct QueueComparator {
+  bool operator()(Register r1, Register r2) {
+    if (r1.time != r2.time) {
+      return r1.time > r2.time;
+    }
+    return r1.id > r2.id;
+  }
+};
+
+struct IdComparator {
+  bool operator()(int id1, int id2) {
+    return id1 > id2;
+  }
+}
+
+
+int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
+  int n, c;
+  while (cin >> n >> c && (n || c)) {
+    queue<int> q;
+    for (int i = 0; i < c; i++) {
+      int a; cin >> a; q.push(a);
+    }
+    priority_queue<Register, vector<Register>, QueueComparator> pq;
+    priority_queue<int, vector<int>, IdComparator> idq;
+    for (int i = 1; i <= n; i++) {
+      idq.push(i);
+    }
+
+    while (!q.empty()) {
+      if (pq.size() < n) {
+        int i = idq.top(); idq.pop();
+        pq.push({i, q.front()});
+        q.pop();
+      } else {
+        Register first = pq.top();
+        while (!pq.empty() && pq.top().time == first.time) {
+          idq.push(pq.top().id);
+          pq.pop();
+        }
+      }
+    }
+
+    cout << idq.top << '\n';
+  }
+  return 0;
+}
